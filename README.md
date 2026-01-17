@@ -6,7 +6,7 @@
 
 Aplikasi manajemen laundry lengkap dengan fitur POS, multi-role, tracking real-time, dan laporan keuangan.
 
-![Dashboard Preview](screenshots/dashboard-admin.png)
+
 
 ---
 
@@ -182,9 +182,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Untuk pertanyaan atau support, silakan hubungi:
 
--   Email: support@laundry.com
--   WhatsApp: +62xxx
+-   Email: nandysyahputra59@gmail.com
+-   WhatsApp: +6281993520678
 
 ---
 
-Made with ❤️ in Indonesia
+
