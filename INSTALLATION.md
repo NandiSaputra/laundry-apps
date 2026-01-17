@@ -17,18 +17,18 @@ Dokumentasi lengkap untuk instalasi aplikasi LaundryBiz.
 
 ### PHP Extensions
 
--   BCMath
--   Ctype
--   cURL
--   DOM
--   Fileinfo
--   JSON
--   Mbstring
--   OpenSSL
--   PDO
--   PDO_MySQL
--   Tokenizer
--   XML
+- BCMath
+- Ctype
+- cURL
+- DOM
+- Fileinfo
+- JSON
+- Mbstring
+- OpenSSL
+- PDO
+- PDO_MySQL
+- Tokenizer
+- XML
 
 ---
 
@@ -140,64 +140,12 @@ php artisan optimize:clear
 
 ---
 
-## 🌐 Instalasi di cPanel/Shared Hosting
-
-### 1. Upload Files
-
-Upload semua file ke folder `public_html` atau subdomain
-
-### 2. Setup .htaccess
-
-Pastikan file `.htaccess` di folder `public/` sudah benar
-
-### 3. Remote Database
-
-Import file `database.sql` (jika tersedia) atau jalankan migrasi via SSH:
-
-```bash
-php artisan migrate --seed
-```
-
-### 4. File Permissions
-
-```bash
-chmod -R 775 storage
-chmod -R 775 bootstrap/cache
-```
-
----
-
-## ❓ Troubleshooting
-
-### Error: SQLSTATE[HY000] [2002]
-
-Database tidak terkoneksi. Pastikan:
-
--   MySQL server berjalan
--   Konfigurasi `.env` sudah benar
--   Database sudah dibuat
-
-### Error: 500 Internal Server Error
-
-```bash
-php artisan config:clear
-php artisan cache:clear
-```
-
-### Error: Vite manifest not found
-
-```bash
-npm run build
-```
-
----
-
 ## 📞 Support
 
 Jika mengalami kesulitan, hubungi:
 
--   Email: nandysyahputra@gmail.com
--   WhatsApp: 081993520678
+- Email: nandysyahputra@gmail.com
+- WhatsApp: 081993520678
 
 ---
 
